@@ -56,15 +56,17 @@ git clone https://github.com/Vaibhavakanna-P/Inter-College_Event_Management_Syst
 cd Inter-College_Event_Management_System---EventHive
 Environment Setup Create a .env file or update settings.py with your credentials:
 ```
+```Bash
 Python
 EMAIL_HOST_USER = 'your-email@gmail.com'
 EMAIL_HOST_PASSWORD = 'your-app-password'
 Database Migration
-
-Bash
+```
+```Bash
 python manage.py makemigrations
 python manage.py migrate
 Run the Server
-
-Bash
+```
+```Bash
 python manage.py runserver
+```
