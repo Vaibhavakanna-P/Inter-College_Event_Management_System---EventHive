@@ -46,16 +46,16 @@ EventHive/
 ├── media/                  # Uploaded Event Posters
 ├── static/                 # CSS, Images, and JS files
 └── requirements.txt        # Project Dependencies
-
+```
 
 ⚙️ Installation & Setup
 Clone the Repo
 
-Bash
+```Bash
 git clone https://github.com/Vaibhavakanna-P/Inter-College_Event_Management_System---EventHive.git
 cd Inter-College_Event_Management_System---EventHive
 Environment Setup Create a .env file or update settings.py with your credentials:
-
+```
 Python
 EMAIL_HOST_USER = 'your-email@gmail.com'
 EMAIL_HOST_PASSWORD = 'your-app-password'
